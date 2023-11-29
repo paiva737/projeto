@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+  
+    background-position: center center;
+    background-size: cover;
+}
+.wrapper{
+   
+    width: 1170px;
+    margin: auto;
+    color: #fff;
+    font-size: 20px;
+   padding-bottom: 20px;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+color: #fff;
+text-decoration:none;
+padding: 5px 20px;
+font-family: sans-serif;
+font-size: 16px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(login.jpg);
+   
+    font-family: sans-serif;
+}
+.contact-box{
+    width:500px;
+    background: transparent;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color:#47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.contact-box a{
+    color: #fff;
+    text-decoration: none;
+}

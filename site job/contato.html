@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contate-nós</title>
+</head>
+<header>
+    
+    <div class="wrapper">
+        <div class="logo">
+            <img src="2.png" alt="">
+        </div>
+        <ul class="nav-area">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="funciona.html">Como Funciona</a></li>
+        </ul>
+
+</header>
+
+<body>
+    <div class="contact-box">
+     <form action="https://api.staticforms.xyz/submit" method="post">
+    <input type="hidden" name="accessKey" value="4fae023e-cda4-4e9a-a137-a114db23b793">
+    <input type="hidden" name="redirectTo" value="https://savenaturee.netlify.app/thanks">
+    <input type="email"   name="email"  class="input-field" placeholder="Digite seu E-mail" required>
+    <input type="text"   name="name" class="input-field" placeholder="Seu Nome" required>
+    <textarea type="text" name="message" class="input-field" placeholder="Digite o local, data e descreva o ocorrido" required></textarea>
+    <button type="btn" class="btn">Enviar Mensagem</button>
+    <input type="text" name="_honey" style="display: none;">
+    <input type="hidden" name="_captcha" value="false">
+</form>
+    </div>
+</body>
+</html>
